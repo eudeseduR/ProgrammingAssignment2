@@ -1,0 +1,6 @@
+x <- matrix(rnorm(150),3,3)
+x
+inv(x)
+get <- function() x
+x <- matrix(rnorm(15),3,3)
+x

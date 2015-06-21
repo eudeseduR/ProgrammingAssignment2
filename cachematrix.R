@@ -45,16 +45,19 @@ cacheSolve <- function(x, ...) {
 
 ## Testing the function.
 
+## > source('~/Documents/Coursera/Data Science/R Programming/Week 2/Programing Assignment 2/makeCacheMatrix.R')
+## > source('~/Documents/Coursera/Data Science/R Programming/Week 2/Programing Assignment 2/cacheSolve.R')
+
 ## Load matrix values.
-> testMatrix <- matrix(runif(9,15,150),3,3)
+## > testMatrix <- matrix(runif(9,15,150),3,3)
 
 ## Generate the makeCacheMatrix object with testMatrix.
-> testMatrixCached <- makeCacheMatrix(testMatrix)
+## > testMatrixCached <- makeCacheMatrix(testMatrix)
 
 ## Retrieve the inverse of matrix calculated using the cacheSolve function.
-> testMatrixInv <- cacheSolve(testMatrixCached)
-> testMatrixInv
-            [,1]         [,2]         [,3]
-[1,] -0.01083678  0.019503353 -0.001919216
-[2,]  0.03090845 -0.018212666 -0.002748595
-[3,] -0.03328351  0.007479378  0.015823126
+## > testMatrixInv <- cacheSolve(testMatrixCached)
+## > testMatrixInv
+##             [,1]         [,2]         [,3]
+## [1,] -0.01083678  0.019503353 -0.001919216
+## [2,]  0.03090845 -0.018212666 -0.002748595
+## [3,] -0.03328351  0.007479378  0.015823126
